@@ -1,0 +1,5 @@
+Summary pertemuan 1
+
+Pertemuan hari ini dimulai tepat pukul 09.00 WIB. Diawali dengan perkenalan masing-masing anggota dilanjutkan dengan pengenalan tentang backend oleh mentor meliputi pengertian, lingkup kerja dan kesempatan kerja di bidang ini. Selanjutnya materi dilanjutkan dengan pengenalan basic penggunaan terminal/command prompt. Materi diakhiri dengan instalasi git bash dan node js.
+
+Pada pertemuan ini masih belum ada kendala berarti dikarenakan penjelasan dari mentor yang sangat baik dan masih melingkupi materi dasar, ada beberapa pertanyaan dari anggota juga dijawab dengan cukup baik oleh mentor. Secara keseluruhan pertemuan hari ini berjalan dengan baik.

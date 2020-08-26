@@ -1,0 +1,9 @@
+Hari ini merupakan hari kedua pembelajaran dari binar, di awal meeting saya mengalami kendala tidak bisa login ke room selama beberapa waktu dan akhirnya mendapatkan solusi bergabung melalui undangan dari mentor. Pertemuan diawali dengan review pertemuan hari sebelumya dari masing-masing anggota. dilanjutkan dengan materi hari ini yaitu tentang control version git menggunakan aplikasi git bash yang telah kami install kemarin, sebelumnya kami diminta membuat akun di github dan gitlab untuk menghubungkan dengan environment local. pada saat pendaftaran akun beberapa anggota menemui kendala, tetapi dengan bantuan mentor semua anggota bisa membuat akun pada kedua platform tersebut. selanjutnya materi dilanjutkan dengan manjalankan beberapa command pada git bash meliputi git init, git status, git add, git commit, git push, git pull dan git clone, dengan menjalankan command tersebut kita bisa melakukan aktivitas dengan akun gitlab yang kita punya. pada pembelajaran ini juga beberapa anggota mengalami kendala pada output command nya tetapi semua bisa di handle dengan baik oleh mentor.
+
+dari penjelasan mentor saya mengambil kesimpulan tentang pengertian git, bahwa git adalah control version yang digunakan untuk kita mengatur dan mengetahui perubahan yang terjadi pada source code kita, git juga biasa digunakan untuk mempermudah pembuatan program secara tim. sedangkan untuk command yang digunakan pada git memiliki fungsi sebagai berikut :
+- git init : digunakan untuk membuat repository pada file lokal
+- git remote origin master : menghubungkan repository lokal dengan remote server
+- git add <file name> : menambahkan file baru pada repository dan masih dalam daftar tunggu
+- git commit -m "<message_name>" : untuk memberikan pesan tentang perubahan
+- git push origin master : mengirim perubahan dan menampilkannya pada repository
+
