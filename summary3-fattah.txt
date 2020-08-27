@@ -1,0 +1,9 @@
+Hari ini kami memasuki hari ketiga pembelajaran bersama mentor, seperti sebelumnya kelas diawali dengan review materi pembelajaran di hari sebelumnya, baru dilanjutkan dengan pembelajaran materi hari ini. Materi hari ini masih melanjutkan materi command pada git, hari ini kita memraktekan command berikut git checkout -b (branch name), git checkout (branch name) dan git pull origin (branch name), dimana fungsi dari ketiga command tersebut adalah sebagai berikut :
+
+- git checkout -b (branch name) : command ini digunakan untuk membuat branch baru pada repository sekaligus pindah ke branch baru tersebut
+
+- git checkout (branch name) : command ini digunakan untuk pindah ke branch yang telah tersedia
+
+-git pull origin (branch name) : command ini digunakan untuk mengambil data sesuai dengan nama branch ke lokal kita
+
+Selesai membahas materi git, pembelajaran dilanjutkan membahas materi basic HTML dan CSS. Pada materi ini kami diajarkan tentang pengertian HTML dan CSS serta analogi untuk memudahkan pemahamannya. Dilanjutkan dengan penjelasan struktur dasar yang ada pada HTML, bahwa HTML memiliki 4 struktur dasar didalamnya meliputi header, menu, article, dan footer, untuk saat ini penggunaannya biasanya dengan tag div. Pada materi CSS kami diajarkan cara memberi style pada website yang kita buat seperti bagaimana memilih elemen pada HTML yang akan kita ubah stylenya dan beberapa perintah pada CSS untuk merubah style.
