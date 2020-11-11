@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "moviebox v.0.1",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "nlkvfdvxxyqyac",
+    "password": "347c6568ca79501a31e1153c45ad7350152453b5b0f924ffae0b5fba0de9dd3c",
+    "database": "d737c0na3hc79a",
+    "host": "ec2-107-22-241-205.compute-1.amazonaws.com",
+    "dialect": "postgres"
+  }
+}
