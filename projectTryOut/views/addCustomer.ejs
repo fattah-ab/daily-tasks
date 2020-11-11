@@ -1,0 +1,23 @@
+<%- include('include/custheader') %> 
+<div class="container">
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <h3>Add Customer</h3>
+            <form action='/customers/add' method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="customer_name">
+                <small class="form-text text-muted">Input your name here</small>
+              </div>
+              <div class="form-group">
+                <label for="name">Password</label>
+                <input type="password" class="form-control" id="password" name="password">
+                <small class="form-text text-muted">Input your password in here</small>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include('include/footer') %>

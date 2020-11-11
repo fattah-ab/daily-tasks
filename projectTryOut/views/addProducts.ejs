@@ -1,0 +1,46 @@
+<%- include('include/prodheader')%>
+<div class="container">
+	<div class="row">
+		<div class="col-6 mx-auto">
+			<h3>Add Products</h3>
+
+			<form action="/products/add" method="POST">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input
+						type="text"
+						class="form-control"
+						id="name"
+						name="product_name"
+					/>
+					<small class="form-text text-muted">Don't input the same name</small>
+				</div>
+
+				<div class="form-group">
+					<label for="image">Image</label>
+					<input
+						type="text"
+						class="form-control"
+						id="image"
+						name="product_image"
+					/>
+					<small class="form-text text-muted">Note : Input URL</small>
+				</div>
+
+				<div class="form-group">
+					<label for="price">Price</label>
+					<input
+						type="number"
+						class="form-control"
+						id="price"
+						name="product_price"
+					/>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<%- include('include/footer') %>

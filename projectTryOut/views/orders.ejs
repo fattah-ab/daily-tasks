@@ -1,0 +1,34 @@
+<%- include('include/orderheader') %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="mt-5">
+              <h3 class="float-left">Order</h3>
+              <a href="/orders/add" class="btn btn-sm btn-primary float-right">Add Order</a>
+            </div>
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Date</th>
+                  <th scope="col">Action</th>
+              </tr>
+              </thead>
+              <tbody>
+                  <% orders.forEach(orders => { %>
+                      <tr>
+                          <td><%= orders.customerId %></td>
+                          <td><%= orders.order_date %></td>
+                          <td>
+                              <a href="/orderdetails/add" class="btn btn-sm btn-info">Add Products</a>
+                              <a href="/orderdetails/view" class="btn btn-sm btn-info">Check Relation</a>
+                              <a href="/orders/delete/<%= orders.id %>" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                      </tr>
+                  <% }) %>
+              </tbody>
+            </table>
+        </div>
+    </div>
+  </div>
+<%- include('include/footer') %>

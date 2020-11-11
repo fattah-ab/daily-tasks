@@ -1,0 +1,45 @@
+<%- include('include/prodheader')%>
+<% const test = Date(); %>
+<% let arr = test.split(""); %>
+
+<% for (let i = 0; i < 35; i++) { %>
+    <% 	arr.pop(); %>
+    <% } %>
+    <% let a = arr.join(""); %>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-6 mx-auto">
+			<h3>Add Order</h3>
+			<form action="/orders/add" method="POST">
+				<div class="form-group">
+					<label for="name">Customer Email</label>
+					<input
+						type="text"
+						class="form-control"
+						id="name"
+						name="customerId"
+					/>
+					<small class="form-text text-muted">Input your name here</small>
+				</div>
+				<div class="form-group">
+					<label for="name">Date</label>
+					<input
+						type="text"
+						placeholder="Enter<%= Date.now() %>"
+						class="form-control"
+						name="order_date"
+						value="<%= a %>"
+					/>
+					<small class="form-text text-muted"
+						>Input your password in here</small
+					>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<%- include('include/footer') %>

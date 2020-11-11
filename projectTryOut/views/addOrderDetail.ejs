@@ -1,0 +1,29 @@
+<%- include('include/orderheader') %> 
+<div class="container">
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <h3>Add Order Details</h3>
+            <form action='/orderdetails/add' method="POST">
+              <div class="form-group">
+                <label for="name">Order Id</label>
+                <input type="text" class="form-control" id="orderId" name="orderId">
+                <small class="form-text text-muted">Input order id here</small>
+              </div>
+              <div class="form-group">
+                <label for="name">Product Id</label>
+                <input type="text" class="form-control" id="productId" name="productId">
+                <small class="form-text text-muted">Input product id here</small>
+              </div>
+              <div>
+                  <label for="name">Quantity</label>
+                  <input type="text" class="form-control" id="qty" name="qty">
+                  <small class="form-text text-muted">How many do you want</small>
+              </div>
+              <br><br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include('include/footer') %>

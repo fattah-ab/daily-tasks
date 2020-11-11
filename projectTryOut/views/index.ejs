@@ -1,0 +1,44 @@
+<%- include('include/header') %>
+<style>
+	.img-fluid {
+		height: 100px;
+		width: 100px;
+	}
+	.price {
+		padding: auto;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+</style>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 mx-auto">
+			<div class="mt-5">
+				<h3 class="float-left">List Product</h3>
+			</div>
+			<% products.forEach(product => { %>
+			<div class="col-md-3">
+				<form action="/addtocart/<%= product.id %>" method="post">
+					<div>
+						<img
+							name="product_image"
+							src=" <%= product.product_image %> "
+							alt=""
+							class="img-fluid"
+						/>
+						<p name="product_name"><%= product.product_name %></p>
+					</div>
+					<div class="price" name="product_price">
+						<%= product.product_price %>
+					</div>
+					<button type="submit" class="btn btn-primary">Add to Cart</button>
+				</form>
+			</div>
+			<% }) %>
+		</div>
+	</div>
+</div>
+<%- include('include/footer') %>
